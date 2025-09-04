@@ -337,7 +337,7 @@ def main():
     load_dotenv()  # Load OPENAI_API_KEY from .env file
     
     # --- Configuration ---
-    INPUT_FILE = "input_data.jsonl"
+    INPUT_FILE = "simplified_tweets.jsonl"
     OUTPUT_FILE = "output_data.jsonl"
     ERROR_FILE = "error_items.jsonl"
     BATCH_SIZE = 5  # Small batch size for safety
